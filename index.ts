@@ -1,8 +1,6 @@
-const server = Bun.serve({
-  port: 3000,
-  fetch(request) {
-    return new Response("Welcome to Bun!");
-  },
-});
+import { bubbleSort, quickSort } from "./sorts"
 
-console.log(`Listening on localhost:${server.port}`);
+const numList = [30, 12, 5, 3, 2, 23, 1, 4, 10]
+
+console.log(bubbleSort(numList))
+console.log(quickSort(numList))
