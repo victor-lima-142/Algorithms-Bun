@@ -1,8 +1,8 @@
 {
-  "name": "my-project",
-  "module": "index.ts",
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "type": "module"
+    "name": "my-project",
+    "module": "index.ts",
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "type": "module"
 }
